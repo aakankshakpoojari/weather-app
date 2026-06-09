@@ -27,7 +27,7 @@
                 <img src="https://openweathermap.org/img/wn/<%= weather.weather[0].icon %>@2x.png" >
                 <h3>Temperature <%= weather.main.temp %> deg C</h3>
                 <h3>Humidity <%= weather.main.humidity %></h3>
-                <h3>Wind speed <%= weather.wind.speed %> km/h</h3>
+                <h3><%= weather.weather[0].description %> km/h</h3>
             </div>
         <% } %>
     </div>
