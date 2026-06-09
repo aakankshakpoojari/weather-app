@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(199, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin-top: 100px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    width:600px;
+    align-items: center;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    gap:25px;
+}
+form input{
+    width:350px;
+    height: 20px;
+    border-radius: 50px;
+    outline: none;
+    padding:10px;
+}
+form button{
+    width:150px;
+    
+    border-radius: 50px;
+    outline: none;
+    padding:10px;
+    background-color: blue;
+    color: aliceblue;
+}
+form button:hover{
+    cursor: pointer;
+}
+.weather-card{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:-10px;
+}
+.weather-card img{
+    width: 125px;
+}
